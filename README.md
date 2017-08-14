@@ -4,7 +4,7 @@
 
 ### Two Code injections :
 * Cross-site scripting (XSS) – client side
-is a type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pagesviewed by other users. 
+is a type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pages viewed by other users. 
 
 * Script Injection – server side
 Injection can result in data loss or corruption, lack of accountability, or denial of access. Injection can sometimes lead to complete host takeover.
