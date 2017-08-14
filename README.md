@@ -50,3 +50,6 @@ A library of string validators and sanitizers.
 XSS
 security-filters
 ```
+### Resourse:
+- [Wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
+- [SQL Injection Cheat Sheet](https://www.veracode.com/security/sql-injection)
