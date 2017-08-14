@@ -13,7 +13,7 @@ Injection can result in data loss or corruption, lack of accountability, or deni
 ### Preventing code injection:
 * Using APIs that, if used properly, are secure against all input characters. Parameterized queries (also known as "Compiled queries", "prepared statements", "bound variables") allows for moving user data out of string to be interpreted.
 * Enforcing language separation via a static type system.
-* Input validation, such as whitelisting for inputs
+* Input validation, such as whitelisting for inputs.
 * Output encoding, i.e. preventing HTML Injection (XSS).
 
 
