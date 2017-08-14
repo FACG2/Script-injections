@@ -11,12 +11,11 @@ Injection can result in data loss or corruption, lack of accountability, or deni
 
 
 ### Preventing code injection:
-Using APIs that, if used properly, are secure against all input characters. Parameterized queries (also known as "Compiled queries", "prepared statements", "bound variables") allows for moving user data out of string to be interpreted.
+* Using APIs that, if used properly, are secure against all input characters. Parameterized queries (also known as "Compiled queries", "prepared statements", "bound variables") allows for moving user data out of string to be interpreted.
 * Enforcing language separation via a static type system.
 * Input validation, such as whitelisting for inputs
-* Output encoding, i.e. preventing HTML Injection (XSS) attacks against web site visitors
-HttpOnly is a flag for HTTP Cookies that, when set, does not allow client-side script interaction with cookies, thereby preventing certain XSS attacks.
-* Modular shell disassociation from kernel With SQL Injection, one can use parameterized queries, stored procedures, whitelist input validation, and more to help mitigate Code Injection problems.
+* Output encoding, i.e. preventing HTML Injection (XSS).
+
 
 #### Example :
 
